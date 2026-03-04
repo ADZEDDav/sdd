@@ -71,7 +71,8 @@ git remote add origin LINK_TO_GITHUB_REPO # Ajoute la repo github comme 'origin'
 git branch -M main # Renomme la branche en main
 git add . # Ajoute tous les fichiers à la phase 'staging'
 git commit -m "Initial commit." # Commits les modifications
-git push -u origin main # Envoie le code vers github --> Les tests sont déclenchés !
+git push -u origin main # Envoie le code vers github --> Les testgit remote remove origin
+git remote add origin TON_LIEN_GITHUB s sont déclenchés !
 ```
 3) Si vous revenez à la page github de votre repository, vous devriez voir que les fichiers ont été ajoutés.
 
