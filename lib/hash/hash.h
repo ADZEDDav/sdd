@@ -10,6 +10,7 @@ unsigned long int hashFunction(void *key);
 typedef struct hashTable
 {
     // TODO: Implement
+
 } HashTable;
 
 HashTable *hashCreate(int size, unsigned long int (*hashFunction)(void *));

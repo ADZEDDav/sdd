@@ -10,7 +10,7 @@ struct car
     // TODO: Implement
     char *brand;
     char *model;
-    char *license
+    char *license;
 };
 
 struct customer

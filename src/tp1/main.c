@@ -10,7 +10,6 @@ int main()
     link_car(v, c); 
 
     printf("Client: %s\nAdresse: %s\n", c->name, c->address);
-    printf("Voiture: %s %s (%s)\n", v->brand, v->model, v->license);
 
     return 0;
 }
