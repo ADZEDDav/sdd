@@ -4,11 +4,15 @@
 typedef struct listNode
 {
     // TODO: Implement
+    void *data;
+    struct listNode *next;
 } ListNode;
 
 typedef struct list
 {
     // TODO: Implement
+    ListNode *head;
+    int size;
 } List;
 
 List *list_create();

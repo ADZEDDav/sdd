@@ -4,11 +4,15 @@
 typedef struct stackNode
 {
     // TODO: Implement
+    void *data;
+    struct stackNode *next;
 } StackNode;
 
 typedef struct stack
 {
     // TODO: Implement
+    StackNode *top;
+    int size;
 } Stack;
 
 Stack *stack_create();

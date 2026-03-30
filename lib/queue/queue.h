@@ -4,11 +4,16 @@
 typedef struct queueNode
 {
     // TODO: Implement
+    void *data;                       // Données stockées 
+    struct queueNode *next;           // Pointeur vers le prochain noeud 
 } QueueNode;
 
 typedef struct queue
 {
     // TODO: Implement
+    QueueNode *head;                    // Premier élément (défile ici)
+    QueueNode *tail;                    // Dernier élément (s'enfile ici)
+    int size;                           // Nombre d'eéléments dans la file
 } Queue;
 
 Queue *queue_create();
