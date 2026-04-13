@@ -53,6 +53,9 @@ test_hash:
 test_all: test_objects test_list test_stack test_queue test_tree test_graph test_hash
 	echo "All tests passed!"
 
+tp3:
+	$(CC) $(FLAGS) src/tp3/main.c lib/tree/tree.c lib/list/list.c lib/queue/queue.c lib/stack/stack.c -o tp3.out
+
 clean:
 	rm -f test/*out*
 	rm -rf src/tp*/*out*
