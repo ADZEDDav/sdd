@@ -5,7 +5,9 @@
 
 typedef struct graph
 {
-    // TODO: Implement
+    // TODO: Implement 
+    int size;
+    float **adj;
 } Graph;
 
 Graph *graph_create(int size);
